@@ -1,0 +1,16 @@
+name: TerrainHousing
+main: to.epac.factorycraft.terrainhousing.TerrainHousing
+author: i998979
+depend: [WorldEdit]
+version: 1.0.0
+api-version: 1.13
+description: Build your beautiful house in designated area, access everywhere!
+
+commands:
+  terrainhousing:
+    description: TerrainHousing base command
+    aliases: [th, trh]
+permissions:
+  TerrainHousing.Admin:
+    default: op
+    description: Give access to everything
