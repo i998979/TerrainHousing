@@ -81,7 +81,7 @@ public class Housing {
                 Sign signblock = (Sign) getSign().getBlock().getState();
 
                 if (now <= expire) {
-                    if (Integer.parseInt(sec) <= 10) {
+                    if (Integer.parseInt(min) <= 0 && Integer.parseInt(min) <= 0 && Integer.parseInt(sec) <= 10) {
                         OfflinePlayer offPlayer = Bukkit.getOfflinePlayer(occupied);
                         if (offPlayer.isOnline()) {
                             Player player = (Player) offPlayer;

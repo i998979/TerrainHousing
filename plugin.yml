@@ -2,7 +2,7 @@ name: TerrainHousing
 main: to.epac.factorycraft.terrainhousing.TerrainHousing
 author: i998979
 depend: [WorldEdit]
-version: 1.0.0
+version: 1.0.1
 api-version: 1.13
 description: Build your beautiful house in designated area, access everywhere!
 
