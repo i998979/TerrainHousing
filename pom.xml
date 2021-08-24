@@ -54,7 +54,7 @@
 
     <repositories>
         <repository>
-            <id>spigotmc-repo</id>
+            <id>spigot-repo</id>
             <url>https://hub.spigotmc.org/nexus/content/repositories/snapshots/</url>
         </repository>
         <repository>
@@ -75,21 +75,21 @@
         <dependency>
             <groupId>org.spigotmc</groupId>
             <artifactId>spigot-api</artifactId>
-            <version>1.16.4-R0.1-SNAPSHOT</version>
+            <version>1.16.5-R0.1-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
 
         <dependency>
             <groupId>com.sk89q.worldedit</groupId>
             <artifactId>worldedit-bukkit</artifactId>
-            <version>7.2.0-SNAPSHOT</version>
+            <version>7.3.0-SNAPSHOT</version>
             <scope>provided</scope>
         </dependency>
-        <!-- <dependency>
-            <groupId>com.intellectualsites.fawe</groupId>
-            <artifactId>FAWE-Bukkit</artifactId>
-            <version>1.16-462</version>
-            <scope>provided</scope>
-        </dependency> -->
+        <!--         <dependency>
+                    <groupId>com.intellectualsites.fawe</groupId>
+                    <artifactId>FAWE-Bukkit</artifactId>
+                    <version>1.16-725</version>
+                    <scope>provided</scope>
+                </dependency>-->
     </dependencies>
 </project>
